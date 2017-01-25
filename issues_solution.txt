@@ -13,3 +13,10 @@ Solution: 1 -> Via GUI
 			save and exit.
 
 			If you dont have terminal you can do same thing bypressing Ctl+Alt+F1 etc.
+
+
+2. how to copy text on vim in gnome-terminal ?
+
+Solution:	Hold down the SHIFT key and mouse select text to copy it. Then paste using suitable command.
+
+3. 
