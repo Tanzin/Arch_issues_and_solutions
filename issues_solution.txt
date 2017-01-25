@@ -1,0 +1,15 @@
+1. Istalled gnome-terminal using pacman but I was not able to launch the terminal. When tried to launch it through another terminal(xterm) it showed error: failed to creat DISPLAY_ID... and something about the proxy.
+
+Solution: 1 -> Via GUI 
+			Simply go to settings->region and languages.
+			change the language to english.
+			Logout your session and on login again you will be able to lauch the gnome-terminal.
+
+	  2 -> Via command line: If you have another terminal you can create a file named locale.conf in /etc.
+			Now paste the given line in that file.
+
+			LANG=en_US.UTF-8
+			
+			save and exit.
+
+			If you dont have terminal you can do same thing bypressing Ctl+Alt+F1 etc.
